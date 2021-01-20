@@ -8,4 +8,4 @@ hours = UserTime // 3600;
 UserTime = UserTime % 3600;
 minutes = UserTime // 60;
 seconds = UserTime % 60;
-print(f"Ваше время в формате чч:мм:сс: {hours}:{minutes}:{seconds}");
+print(f"Ваше время в формате чч:мм:сс: {hours:02}:{minutes:02}:{seconds:02}");
